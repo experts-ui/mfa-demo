@@ -1,0 +1,16 @@
+.main-container {
+    display: flex;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  .side-nav {
+    flex-grow: 0.1;
+  }
+
+  .item-details {
+    flex-grow: 0.9;
+  }
