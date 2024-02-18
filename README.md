@@ -5,16 +5,17 @@ Micro Front Ends Applications consists of one host/shell/parent and multiple rem
 We have used the client side way of rendering the front end applications.
 In this case the host applications application is "shell-app"(derived the names from respective angular.json) which is a angular application and it contains references to these these remotes on its home page
 # 1.side-nav-bar (Angular App)
-https://experts-ui.github.io/Angular-SideNav/sideNavBarRemote.js
+
+https://experts-ui.github.io/Angular-SideNav
 GITHUB REPO LINK - https://github.com/experts-ui/Angular-SideNav
 # 2.top-nav-header(Angular App )(This is actually the footer)
-https://experts-ui.github.io/Angular-Footer/topNavHeader.js
+https://experts-ui.github.io/Angular-Footer
 GITHUB REPO LINK - https://github.com/experts-ui/Angular-Footer
 # 3.item-details(Angular App)
-https://experts-ui.github.io/AngularItemDetails/itemDetailsRemote.js
+https://experts-ui.github.io/AngularItemDetails
 GITHUB REPO LINK - https://github.com/experts-ui/AngularItemDetails
 # 4.top-nav(React App)
-https://experts-ui.github.io/ReactTopNavMFE/remoteEntry.js
+https://experts-ui.github.io/ReactTopNavMFE
 GITHUB REPO LINK - https://github.com/experts-ui/ReactTopNavMFE
 # 5.shell-app(Angular App)
 https://experts-ui.github.io/mfa-demo/
@@ -57,6 +58,10 @@ Now the deployment process would have triggered automatically
 # Additional Steps For Host
 11.In the webpack.config ,give the production ready urls and in all places where you want to pull the remote
 (In this case,\src\app\app.component.ts)
+and webconfig.json
+
+ex:http://localhost:6002/sideNavBarRemote.js is changed 
+to https://github.com/experts-ui/Angular-SideNav/Angular-SideNav/sideNavBarRemote.js
 
 12.Again build the application and then re-deploy so that the changes will reflect
 
