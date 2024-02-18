@@ -44,10 +44,10 @@ module.exports = {
         
         // For hosts (please adjust)
         remotes: {
-            "topNavHeader": "https://saswatiaccenture.github.io/Angular-Footer/topNavHeader.js",
-            "sideNavBarRemote": "https://saswatiaccenture.github.io/Angular-SideNav/sideNavBarRemote.js",
-            "itemDetailsRemote": "https://saswatiaccenture.github.io/AngularItemDetails/itemDetailsRemote.js",
-            "topNavigation":"topNavigation@ https://saswatiaccenture.github.io/ReactTopNavMFE/remoteEntry.js"
+            "topNavHeader": "https://experts-ui.github.io/Angular-Footer/topNavHeader.js",
+            "sideNavBarRemote": "https://experts-ui.github.io/Angular-SideNav/sideNavBarRemote.js",
+            "itemDetailsRemote": "https://experts-ui.github.io/AngularItemDetails/itemDetailsRemote.js",
+            "topNavigation":"topNavigation@ https://experts-ui.github.io/ReactTopNavMFE/remoteEntry.js"
         },
 
         shared: share({

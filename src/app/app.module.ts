@@ -7,7 +7,7 @@ import { loadRemoteModule } from '@angular-architects/module-federation';
 export function initializeApp(): () => void {
   return () => {
     loadRemoteModule({
-      remoteEntry: "https://saswatiaccenture.github.io/ReactTopNavMFE/remoteEntry.js",
+      remoteEntry: "https://experts-ui.github.io/ReactTopNavMFE/remoteEntry.js",
       remoteName: "topNavigation",
       exposedModule: "./TopNav",
     });
